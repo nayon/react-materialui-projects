@@ -8,7 +8,7 @@ import { Button } from '@material-ui/core';
 const Posts = (props) => {
     const {userId, id, title} = props.post;
     return (
-        <div style={{border: '1px solid gray', margin:'20px', padding:'20px', borderRadius:'20px'}}>
+        <div style={{border: '2px solid red', margin:'20px', padding:'20px', borderRadius:'20px'}}>
         
             <h3>Post Id : {id} </h3>
             <h2>Post Title : {title}</h2>

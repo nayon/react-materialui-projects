@@ -7,11 +7,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Components/Home/Home';
-
 import NoMatch from './Components/NoMatch/NoMatch';
 import PostDetail from './Components/PostDetail/PostDetail';
-
-
 
 function App() {
   return (
@@ -33,7 +30,6 @@ function App() {
         </Switch>
       </Router>
       
-  
   );
 }
 
