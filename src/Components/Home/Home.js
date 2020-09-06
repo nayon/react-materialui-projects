@@ -21,7 +21,7 @@ const Home = () => {
         .then(data => setPosts(data))
     },[])
     return (
-        <div className="col-xl-4 col-lg-6 col-md-6" style={postStyle}>
+        <div style={postStyle}>
             {
                 posts.map(post => <Posts post ={post}></Posts>)
             }
